@@ -1,2 +1,2 @@
 # portfolio-v2
-Portfolio web page with flexbox, navigation, and HTML form.
+[Portfolio web page](https://orndorfftyler.github.io/portfolio-v2/) with flexbox, navigation, and HTML form. 

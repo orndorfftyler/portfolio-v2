@@ -8,23 +8,23 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body>
+  <body class="full-width">
     <header>
       <h1>Tyler Orndorff</h1>
-		<nav>
-			<ul id="menu">
-				<li><a href="#intro">Intro</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
+      <nav>
+        <ul id="menu">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     
     <main>
       <section class="group wrapper">
         <div class="item">
-          <img src="images/me.JPG" alt="Tyler Orndorff outside" width="400">
+          <img src="images/me.JPG" alt="Tyler Orndorff outside"  class="resize">
         </div>
         <div id="intro" class="item">
           <h2>Intro Section</h2>
@@ -32,61 +32,54 @@
           <p>I used to work as a mechanical engineer in the space industry. On the job, I was given an opportunity to write some code and I really enjoyed it! Now I'm a student at Thinkful looking to become a full time software developer. </p>
         </div>
       </section>
-    <div class="color">
-      <section class="group wrapper">
-        <div id="about" class="item">
-          <h2>About Me</h2>
-          <p>During my time as a mechanical engineer I became experienced with working on a team to solve technical problems. I look forward to applying this skillset in the world of software development. I love learning new technologies and building new and exciting applications. </p>
-          <p>In my free time, I like to play disc golf, watch stand up comedy, and read about developments in the space industry.</p>
-            
-        </div>
-        <div class="item">
-          <img src="images/disc-golf-hole.jpg" alt="disc golf hole" width="400">
-        </div>
+      <div class="color">
+        <section class="group wrapper">
+          <div id="about" class="item">
+            <h2>About Me</h2>
+            <p>During my time as a mechanical engineer I became experienced with working on a team to solve technical problems. I look forward to applying this skillset in the world of software development. I love learning new technologies and building new and exciting applications. </p>
+            <p>In my free time, I like to play disc golf, watch stand up comedy, and read about developments in the space industry.</p>
+          </div>
+          <div class="item">
+            <img src="images/disc-golf-hole.jpg" alt="disc golf hole" class="resize">
+          </div>
+        </section>
+      </div>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
       </section>
-    </div>
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-    </section>
-    <div class="wrapper">
-      <section class="group">
-        <div class="item">
-          <img src="images/booktrove-book.PNG" alt="project placeholder" class="curve"/>
-          <h3>BookTrove</h3>
-          <p>BookTrove is an app which lets you leave reviews for your favorite books and mark other reviews as useful. The search is powered by Google Books. It was built using React, Node.js, PostgreSQL, Express, and Knex.</p>
-          <a href="https://booktrove-app.vercel.app/" target="_blank">Live App</a>
-          <br>
-          <a href="https://github.com/orndorfftyler/booktrove-app" target="_blank">GitHub Repo</a>
-        </div>
+      <div class="wrapper">
+        <section class="group">
+          <div class="item">
+            <img src="images/booktrove-book.PNG" alt="project placeholder" class="curve"/>
+            <h3>BookTrove</h3>
+            <p>BookTrove is an app which lets you leave reviews for your favorite books and mark other reviews as useful. The search is powered by Google Books. It was built using React, Node.js, PostgreSQL, Express, and Knex.</p>
+            <a href="https://booktrove-app.vercel.app/" target="_blank">Live App</a>
+            <br>
+            <a href="https://github.com/orndorfftyler/booktrove-app" target="_blank">GitHub Repo</a>
+          </div>
 
-        <div class="item">
-          <img src="images/search-results.PNG" alt="project placeholder" class="curve"/>
-          <h3>Event Weather App</h3>
-          <p>The event weather app provides a weather forecast for a given event. The Ticketmaster API is used to retrieve event information and the Open Weather API is used for the weather forecasts. It was built using HTML, CSS, JavaScript, and jQuery.</p>
-          <a href="https://orndorfftyler.github.io/event-weather/" target="_blank">Live App</a>
-          <br>
-          <a href="https://github.com/orndorfftyler/event-weather" target="_blank">GitHub Repo</a>
-        </div>
-      </section>
-      <section class="group">
-        <div class="item">
-          <img src="images/matrix.jpg" alt="project placeholder" class="curve"/>
-          <h3>Park Search App</h3>
-          <p>This app lets the user search for parks using the National Park Service API. It was built using HTML, CSS, JavaScript, and jQuery.</p>
-          <a href="https://orndorfftyler.github.io/park-search/" target="_blank">Live App</a>
-          <br>
-          <a href="https://github.com/orndorfftyler/park-search" target="_blank">GitHub Repo</a>
-        </div>
+          <div class="item">
+            <img src="images/search-results.PNG" alt="project placeholder" class="curve"/>
+            <h3>Event Weather App</h3>
+            <p>The event weather app provides a weather forecast for a given event. The Ticketmaster API is used to retrieve event information and the Open Weather API is used for the weather forecasts. It was built using HTML, CSS, JavaScript, and jQuery.</p>
+            <a href="https://orndorfftyler.github.io/event-weather/" target="_blank">Live App</a>
+            <br>
+            <a href="https://github.com/orndorfftyler/event-weather" target="_blank">GitHub Repo</a>
+          </div>
+        </section>
+        <section class="group">
+          <div class="item">
+            <img src="images/aquatic-answers-question-page.PNG" alt="project placeholder" class="curve"/>
+            <h3>Aquatic Answers</h3>
+            <p>Aquatic Answers lets users ask and answer questions related to aquariums. Anyone can view questions, but an account is requried to post. It was built using React, Node.js, PostgreSQL, Express, and Knex.</p>
+            <a href="https://aquatic-app2.vercel.app/" target="_blank">Live App</a>
+            <br>
+            <a href="https://github.com/orndorfftyler/aquatic-app" target="_blank">GitHub Repo</a>
+          </div>
 
-        <div class="item">
-          <img src="images/matrix.jpg" alt="project placeholder" class="curve"/>
-          <h3>Florida Quiz App</h3>
-          <p>This is a simple 5 question quiz that keeps track of the user's current question and score. This exercise helped me get familiar with jQuery and get used to breaking up a program into many smaller specialized functions. Built with HTML, CSS, JavaScript, jQuery.</p>
-          <a href="https://orndorfftyler.github.io/quiz-app/" target="_blank">Live App</a>
-          <br>
-          <a href="https://github.com/orndorfftyler/quiz-app" target="_blank">GitHub Repo</a>
-        </div>
-      </section>
+          <div class="item">
+          </div>
+        </section>
       </div>
 
       <section id="contact" class="group wrapper">
